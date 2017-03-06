@@ -32,6 +32,7 @@
         "!" = {
             "!" = ("insertText:", "‼");
             "?" = ("insertText:", "‽");
+            "=" = ("insertText:", "≠");
         };
         "?" = {
             "?" = ("insertText:", "⁇");
