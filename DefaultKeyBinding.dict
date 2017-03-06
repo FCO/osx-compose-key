@@ -17,7 +17,8 @@
         "$~\UF702" = ("insertText:", "⇇"); /* (Shift-opt) Double-left arrow */
         "$~\UF703" = ("insertText:", "⇉"); /* (Shift-opt) Double-right arrow */
         "\$" = ("insertText:", "💰");
-        "*" = ("insertText:", "★");
+        "*" = ("insertText:", "×");
+        "/" = ("insertText:", "÷");
         " " = {
             " " = ("insertText:", "\U00A0"); /* Non-breaking space */
         };
@@ -29,10 +30,16 @@
             ">" = ("insertText:", "→");
         };
         "!" = {
+            "!" = ("insertText:", "‼");
             "?" = ("insertText:", "‽");
         };
         "?" = {
+            "?" = ("insertText:", "⁇");
             "!" = ("insertText:", "⸘");
+        };
+        "Q" = {
+            "[" = ("insertText:", "｢");
+            "]" = ("insertText:", "｣");
         };
         "1" = {
             "1" = {
