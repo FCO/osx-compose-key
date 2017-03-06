@@ -22,6 +22,11 @@
         " " = {
             " " = ("insertText:", "\U00A0"); /* Non-breaking space */
         };
+        "." = {
+            "." = {
+                "." = ("insertText:", "…");
+            };
+        };
         "+" = {
             "1" = ("insertText:", "👍");
         };
