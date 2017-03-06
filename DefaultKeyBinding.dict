@@ -28,9 +28,11 @@
             };
         };
         "+" = {
+            "-" = ("insertText:", "±");
             "1" = ("insertText:", "👍");
         };
         "-" = {
+            " " = ("insertText:", "− ");
             "1" = ("insertText:", "👎");
             ">" = ("insertText:", "→");
         };
@@ -38,6 +40,11 @@
             "!" = ("insertText:", "‼");
             "?" = ("insertText:", "‽");
             "=" = ("insertText:", "≠");
+        };
+        "=" = {
+            "!" = {
+                "=" = ("insertText:", "≅");
+            };
         };
         "?" = {
             "?" = ("insertText:", "⁇");
