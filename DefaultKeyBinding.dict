@@ -17,7 +17,21 @@
         "$~\UF702" = ("insertText:", "⇇"); /* (Shift-opt) Double-left arrow */
         "$~\UF703" = ("insertText:", "⇉"); /* (Shift-opt) Double-right arrow */
         "\$" = ("insertText:", "💰");
-        "*" = ("insertText:", "×");
+        "*" = {
+            " " = ("insertText:", "×");
+            "*" = {
+                "0" = ("insertText:", "⁰");
+                "1" = ("insertText:", "¹");
+                "2" = ("insertText:", "²");
+                "3" = ("insertText:", "³");
+                "4" = ("insertText:", "⁴");
+                "5" = ("insertText:", "⁵");
+                "6" = ("insertText:", "⁶");
+                "7" = ("insertText:", "⁷");
+                "8" = ("insertText:", "⁸");
+                "9" = ("insertText:", "⁹");
+            };
+        };
         "/" = ("insertText:", "÷");
         " " = {
             " " = ("insertText:", "\U00A0"); /* Non-breaking space */
@@ -172,6 +186,11 @@
                 "i" = {
                     "p" = ("insertText:", "(╯‵Д′)╯彡┻━┻");
                 };
+            };
+        };
+        "i" = {
+            "n" = {
+                "f" = ("insertText:", "∞");
             };
         };
         "k" = {
